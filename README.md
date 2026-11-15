@@ -10,7 +10,7 @@
 
 ## 下载即玩（推荐给朋友）
 
-1. 打开右侧 [Releases](../../releases)，下载最新的 `象棋指导棋_免安装版.zip`。
+1. 打开右侧 [Releases](../../releases)，下载最新的 `xiangqi-coach-portable-v1.0.0.zip`（资产标签：免安装版）。
 2. 解压到**可写目录**（桌面、下载目录都行，不要放 `Program Files`）。
 3. 双击 `象棋指导棋.exe` 启动。不需要安装 Python、引擎或模型。
 
