@@ -1,0 +1,22 @@
+# 程序运行产物
+程序/engine/
+程序/models/board_recognition/*.onnx
+程序/.recognition-venv/
+程序/data/*
+!程序/data/master_book.json
+程序/**/__pycache__/
+程序/.pytest_cache/
+程序/启动失败.log
+
+# 免安装包构建产物与本地工具
+build/
+runtime/
+tools/
+*.zip
+
+# 系统与临时文件
+Thumbs.db
+desktop.ini
+.DS_Store
+tmp-*.png
+tmp_*.py

@@ -1,0 +1,76 @@
+[
+  {
+    "id": "opening_red",
+    "category": "opening",
+    "fen": "rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR w - - 0 1"
+  },
+  {
+    "id": "opening_black",
+    "category": "opening",
+    "fen": "rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C2C4/9/RNBAKABNR b - - 0 1"
+  },
+  {
+    "id": "game1_ply16",
+    "category": "middlegame",
+    "fen": "1r1akab2/9/1cn1b1n1c/p1C1p1p1p/2p4r1/1R4P2/P1P1P3P/2N1C1N2/9/2BAKAB1R w - - 0 1",
+    "source": "bundled master_book.sqlite game 1 ply 16"
+  },
+  {
+    "id": "game1_ply17",
+    "category": "middlegame",
+    "fen": "1r1akab2/9/1cn1b1n1c/p1C1p1p1p/2p4r1/1R4P2/P1P1P3P/2N1C1N2/9/2BAKABR1 b - - 0 1",
+    "source": "bundled master_book.sqlite game 1 ply 17"
+  },
+  {
+    "id": "game47_ply40",
+    "category": "middlegame",
+    "fen": "4kab2/4ar3/2n1b4/p3p3p/1c7/4P4/P3R3P/4C1N2/1C3c3/2BAKAB2 w - - 0 1",
+    "source": "bundled master_book.sqlite game 47 ply 40"
+  },
+  {
+    "id": "game47_ply41",
+    "category": "middlegame",
+    "fen": "4kab2/4ar3/2n1b4/p3p3p/1c7/4P4/P1R5P/4C1N2/1C3c3/2BAKAB2 b - - 0 1",
+    "source": "bundled master_book.sqlite game 47 ply 41"
+  },
+  {
+    "id": "game47_ply140",
+    "category": "endgame",
+    "fen": "9/4k4/9/4P4/9/5c3/4p4/3AC4/4A4/4K1B2 w - - 0 1",
+    "source": "bundled master_book.sqlite game 47 ply 140"
+  },
+  {
+    "id": "game47_ply141",
+    "category": "endgame",
+    "fen": "9/4k4/4P4/9/9/5c3/4p4/3AC4/4A4/4K1B2 b - - 0 1",
+    "source": "bundled master_book.sqlite game 47 ply 141"
+  },
+  {
+    "id": "game47_ply160",
+    "category": "endgame",
+    "fen": "9/3k5/4P4/9/9/9/2pc5/3ABA3/9/C3K4 w - - 0 1",
+    "source": "bundled master_book.sqlite game 47 ply 160"
+  },
+  {
+    "id": "game47_ply161",
+    "category": "endgame",
+    "fen": "9/3k5/4P4/9/9/9/2pc5/3ABA3/C8/4K4 b - - 0 1",
+    "source": "bundled master_book.sqlite game 47 ply 161"
+  },
+  {
+    "id": "mate_in_one_red",
+    "category": "tactical",
+    "fen": "4k4/3R5/4NR3/9/4p4/9/9/9/9/4K4 w - - 0 1",
+    "acceptable": [
+      "f7f9"
+    ]
+  },
+  {
+    "id": "mate_in_one_black",
+    "category": "tactical",
+    "fen": "4k4/9/9/9/9/4P4/9/3rn4/5r3/4K4 b - - 0 1",
+    "acceptable": [
+      "d2d0"
+    ]
+  }
+]

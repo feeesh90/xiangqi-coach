@@ -1,0 +1,37 @@
+{
+  "xiangqi_source": "https://github.com/dffge552/xiangqi-pwa-offline",
+  "commit": "3ff21f4502a03f30bb0df55db6f3814ceeb989f5",
+  "upstream_adapter_code_license": "MIT",
+  "ocr_source": "rapidocr_onnxruntime 1.4.4 PyPI wheel / PaddleOCR PP-OCRv4",
+  "runtime": "ONNX Runtime CPU only; RapidOCR Python package is not installed",
+  "files": [
+    {
+      "file": "online_xiangqi_piece_detector.onnx",
+      "bytes": 12463408,
+      "sha256": "843cf2601a6414d83a2fff6ac95cab175fa677d66463928a837fc83686f68fd1",
+      "license": "AGPL-3.0 as embedded in ONNX metadata"
+    },
+    {
+      "file": "online_xiangqi_classifier.onnx",
+      "bytes": 5912066,
+      "sha256": "f8f41504fb6057a125815e51ccbf9a9640e1161559d4e713e8b531f7c0ae6d29",
+      "license": "AGPL-3.0 as embedded in ONNX metadata"
+    },
+    {
+      "file": "ch_PP-OCRv4_rec_infer.onnx",
+      "bytes": 10857958,
+      "sha256": "48fc40f24f6d2a207a2b1091d3437eb3cc3eb6b676dc3ef9c37384005483683b",
+      "license": "Apache-2.0"
+    }
+  ],
+  "optional_follow_model": {
+    "file": "tchess_yolov11.onnx",
+    "bytes": 10575683,
+    "sha256": "099c4ef0cbfbd07f680037bb1aabf59024f5c0243964b36aeec7c7a57f7213e1",
+    "source": "https://github.com/sojourners/public-Xiangqi",
+    "git_blob": "dde7a0a10fdc221adbb252da80c37343c534c82f",
+    "license": "AGPL-3.0 embedded in model metadata; upstream adapter repository GPL-3.0",
+    "default": false,
+    "reason": "JJ sample correct; generated-board regressions prevent default promotion"
+  }
+}

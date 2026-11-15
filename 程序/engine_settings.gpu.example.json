@@ -1,0 +1,12 @@
+{
+  "pikafish": {"threads": 8, "hash_mb": 512},
+  "px0": {
+    "enginePath": "engine/px0-gpu/px0.exe",
+    "networkPath": "engine/px0/network.pb.gz",
+    "backend": "onnx-cuda",
+    "backendOptions": "fp16=false",
+    "threads": 1,
+    "startupTimeout": 60,
+    "searchTimeout": 30
+  }
+}

@@ -1,0 +1,48 @@
+V8：参考成熟 UCI 象棋 GUI + API 接入
+===================================
+
+一、底层架构继续向 TCHESS 这类成熟 GUI 靠拢
+- Pikafish 单进程常驻
+- UCI go movetime / depth / nodes
+- MultiPV
+- stop 可随时中止
+- Threads / Hash 可在界面调整
+- 界面只做调度、棋盘和解释，最终棋力由 Pikafish 负责
+
+二、新增 API 接入
+左侧：
+    ☁ API设置
+
+支持任意 OpenAI-compatible chat/completions 风格接口。
+需要填写：
+- 完整 API URL
+- 模型名
+- API Key
+- 超时时间
+
+可以：
+- 手动点“API讲解当前方案”
+- 设置成推荐完成后自动讲解
+- 测试连接
+
+重要：
+API 不参与最终 bestmove 决策。
+它只获得 Pikafish 的：
+- 当前 FEN
+- 当前方案
+- 主变化 PV
+- 本地解释
+- 大师棋谱参考
+
+然后负责生成更自然的中文讲解。
+即使 API 输出错误，也不能改变棋盘上的 Pikafish 首选。
+
+三、密钥处理
+默认不把 API Key 保存到磁盘。
+可以：
+1. 每次启动填写；
+2. 设置环境变量 XIANGQI_API_KEY；
+3. 主动勾选“明文保存到本机配置”。
+
+配置位置：
+    %USERPROFILE%\.xiangqi-coach\api_settings.json
